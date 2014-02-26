@@ -3,7 +3,14 @@ package com.codetutr;
 public class User{
 	private String firstName;
 	private String lastName;
-		private String midName;
+	private String midName;
+	private String address;
+	public void setAddress(String address){
+	   this.address = address;
+	  }
+public String getAddress(){
+		return address;
+		}
 	public void setFirstName(String firstName){
 	   this.firstName = firstName;
 	  }
