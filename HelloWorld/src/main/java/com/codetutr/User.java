@@ -18,6 +18,18 @@ public String getAddress(){
 public String getFirstName(){
 		return firstName;
 		}
+		public void setLastName(String lastName){
+	   this.lastName = lastName;
+	  }
+public String getlastName(){
+		return lastName;
+		}
+		public void setMidName(String midName){
+	   this.midName = midName;
+	  }
+public String getMidName(){
+		return midName;
+		}
 		
 		
 }
