@@ -5,6 +5,7 @@ public class User{
 	private String lastName;
 	private String midName;
 	private String address;
+	private int age;
 	public void setAddress(String address){
 	   this.address = address;
 	  }
