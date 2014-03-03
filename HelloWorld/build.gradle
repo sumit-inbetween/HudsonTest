@@ -9,4 +9,10 @@ repositories {
 dependencies {
    providedCompile 'javax.servlet:servlet-api:2.5'
    runtime 'javax.servlet:jstl:1.1.2'
+   runtime 'org.eclipse.jetty:jetty-server:9.1.0.RC2'
+   runtime 'org.eclipse.jetty:jetty-webapp:9.0.0.RC2'
+     runtime       'org.eclipse.jetty:jetty-servlet:9.0.0.RC2'
+    runtime        'org.eclipse.jetty:jetty-util:9.0.0.RC2'
+    runtime        'org.eclipse.jetty:jetty-deploy:9.0.0.RC2'
+            
 }
